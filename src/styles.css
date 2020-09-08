@@ -2,3 +2,25 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.list {
+  list-style: none;
+  text-align: center;
+  color: blue;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}

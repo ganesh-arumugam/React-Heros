@@ -16,7 +16,7 @@ export default function App() {
     <div className="App">
       <h1>Super Heros Save the World</h1>
       {!user && <BasicForm handleSubmit={handleSubmit} />}
-      <DisplayHeros user={user} />
+      {!!user && <DisplayHeros user={user} />}
     </div>
   );
 }
